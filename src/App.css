@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 45px;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo{
+  margin-top: 15px;
+}
