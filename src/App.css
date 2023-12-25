@@ -15,3 +15,20 @@ nav {
 .logo{
   margin-top: 15px;
 }
+
+#sign-in-button, #sign-out-button {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  border-width: 0px;
+  width: 150px;
+}
+
+#sign-in-button:hover, #sign-out-button:hover {
+  cursor: pointer;
+}
+
+.profile-input{
+  display: flex;
+  justify-content: center;
+}
