@@ -14,7 +14,6 @@ firebase.initializeApp({
 
 const provider = new GoogleAuthProvider();
 const auth = getAuth();
-//const result = await signInWithPopup(auth, provider)
 
 export default function Profile() {
     const [user] = useAuthState(auth);
